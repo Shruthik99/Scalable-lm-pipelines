@@ -144,13 +144,6 @@ jupyter notebook
 python src/streaming_shard_gpt2_yelp.py
 ```
 
-### **Option 3: Google Colab**
-
-1. Go to [Google Colab](https://colab.research.google.com)
-2. File → Upload notebook
-3. Upload Lab1 or Lab2 notebook
-4. Runtime → Run all
-
 
 ## 🎓 Results
 
@@ -190,27 +183,12 @@ python src/streaming_shard_gpt2_yelp.py
 ```
 scalable-lm-pipelines/
 │
-├── notebooks/
-│   ├── Lab1_YelpReviews_Colab.ipynb          # Traditional loading
-│   ├── Lab2_YelpReviews_Streaming_Colab.ipynb # Streaming pipeline
-│   └── Analysis.ipynb                         # Results comparison
-│
-├── src/
-│   ├── streaming_shard_gpt2_yelp.py          # Multi-process sharding
-│   └── __init__.py
-│
-├── docs/
-│   ├── SETUP_GUIDE.md                        # Detailed setup instructions
-│   └── images/                               # Diagrams and screenshots
-│
-├── results/
-│   ├── benchmarks.csv                        # Performance metrics
-│   └── sample_outputs/                       # Example batches
-│
-├── requirements.txt                          # Python dependencies
-├── .gitignore                                # Git ignore file
-├── LICENSE                                   # MIT License
-└── README.md                                 # This file
+├── Lab_1.ipynb
+├── Lab_2.ipynb
+├── streaming_shard_gpt2_yelp.py
+├── requirements.txt
+├── .gitignore
+└── README.md
 ```
 
 ---
